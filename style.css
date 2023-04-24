@@ -1,0 +1,197 @@
+/*
+RMIT University Vietnam
+Course: COSC2430 Web Programming
+Semester: 2023A
+Assessment: Assignment 1
+Author: Le Khanh Toan
+ID: s3932146
+Acknowledgement: Lecture, Tutorial, www.w3schools.com, stackoverflow.com 
+*/
+.category-1 img,
+.category-2 img,
+.category-3 img {
+    width: 200px;
+    padding: 0px 100px;
+    height: 250px;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Georgia", serif;
+    color:  rgb(24, 24, 24);
+    font-size: 48px ;
+}
+
+.category-1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 0px 30px;
+    margin: 0px auto;
+    justify-content: space-between;
+}
+
+.category-2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 0px 30px;
+    margin: 0px auto;
+    justify-content: space-between;
+}
+
+.category-3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 0px 30px;
+    margin: 0px auto;
+    justify-content: space-between;
+}
+
+.container {
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    background-color: rgb(255, 251, 125);
+    
+}
+.footer {
+    display: flex;
+    align-items: flex-end ;
+    justify-content: space-around;
+    background-color: rgb(159, 157, 157);
+
+}
+
+
+.navbar {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 35px ;
+    padding: 0 30px ;
+}
+
+.logo {
+    width: 120px;
+    cursor: pointer;
+}
+
+nav {
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+    position: relative;
+}
+
+nav ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #000000;
+    display: block;
+    margin: auto;
+    transition: 0.1s;
+}
+
+nav ul li:hover::after {
+    width: 100%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000001;
+    font-size: 16px;
+}
+
+p {
+    font-family: georgia ,serif;
+}
+
+
+.form{
+    text-align: center;
+     margin : 10px ;
+}
+.breadcrumb {
+    text-align: center;
+  }
+.book-img-info {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .main-img-section {
+    display: flex;
+    justify-content:center;
+    width: 30%;
+    margin: 20px;
+  }
+  
+  .main-img {
+    border: 20px;    
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .small-img-section {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 20px;
+  }
+  
+  
+  .small-img {
+    padding: 5px;
+    max-width: 100%;
+    height: auto;
+  }
+  .description-section {
+    background: #abf5f9;
+    padding: 20px;
+  }
+  
+  .description-info {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 10px 20px;
+  }
+  
+  .description-info li {
+    margin-top: 12px;
+  }
+  .add-to-cart {
+    max-width: fit-content;
+    background-color: #ef2210;
+    color: #fff;
+    margin: 10px 30px;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 20px; 
+
+  }
+  .purchase {
+    max-width: fit-content;
+    background-color:rgb(217, 143, 234) ;
+    color: #fff;
+    margin: 10px 10px;
+    padding: 80px;
+    border-radius: 50px;    
+   
+  }
+  body{
+    background-color: bisque;
+    margin: 0%;
+
+  }

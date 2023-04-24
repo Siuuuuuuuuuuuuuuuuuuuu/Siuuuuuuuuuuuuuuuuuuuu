@@ -1,0 +1,115 @@
+<!--
+RMIT University Vietnam
+Course: COSC2430 Web Programming
+Semester: 2023A
+Assessment: Assignment 1
+Author: Le Khanh Toan
+ID: s3932146
+Acknowledgement: Lecture, Tutorial, www.w3schools.com, stackoverflow.com 
+-->
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset = "utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name = "viewpoint" content = "width=device-width, initial-scale=1">
+        <title>Contact Us</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+    <body>
+        <div class="header">
+            <div class="container">
+                <div class="navbar">
+                    <img src="Image/logo.png" alt="logo" class="logo"/>
+                    <nav>
+                        <ul>
+                            <li><a href="Home.html">Home Page</a></li>
+                            <li><a href="Home.html">Categories 1</a></li>
+                            <li><a href="Categories.html">Categories 2</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <h2>Contact Us</h2>
+        <form class="form">
+            <div class="form-c">
+                <label for="Contact purpose"> Contact purpose</label>
+                <select name="Contact_purpose" id="Contact_purpose">
+                <option value="sell books">I want to sell books</option>
+                <option value="buy books">I want to buy books</option>
+                </select>
+            </div>
+        </form>
+        <div class="form">
+            <div class="form-label">
+                <label for="name">Your Name</label>
+            </div>
+            <div class="form">
+                <input required id="name" type="text" name="name" maxlength="50">
+              </div>
+        </div>
+        <div class="form">
+            <div class="form-label">
+                <label for="email">Your Email</label>
+            </div>
+            <div class="form">
+                <input required id="email" type="email" name="email">
+              </div>
+        </div>
+        <div class="form">
+            <div class="form">
+                <label for="Phone">Your Phone Number </label>
+            </div>
+            <div class="form">
+                <input required id="phone" type="tel" name="phone" pattern="[0-9]{9,13}" title="Enter 9 to 13 digits">
+            </div>
+        </div>
+        <div class="form">
+            <div class="form">
+              <label>How can we contact you:</label>
+            </div>
+            <div class="form">
+                  <input type="checkbox" id="contact_phone" name="contact_method" value="phone">
+                  <label for="contact_phone">By Phone</label>
+                  <input type="checkbox" id="contact_email" name="contact_method" value="email">
+                  <label for="contact_email">By Email</label>
+            </div>
+        </div>
+
+        </form>
+        <div class="form">
+            <div class="form">
+                <label>Do you want to recieve our weekly newsletter:</label>
+            </div>
+            <div class="form">
+                <input type="radio" id="Yes" name="choice" value="Yes" checked="checked by default">
+                <label for="Yes">Yes</label><br>
+                <input type="radio" id="No" name="choice" value="No">
+                <label for="No">No</label>
+            </div>
+        </div>
+
+        <div class="form">
+               <a href ="Contact.html" ><input type="reset" value="   Reset   "> </a>
+                <input type="submit" value="  Submit  ">
+        </div>
+        </form>
+
+        <div class="footer">
+             <nav>
+                <div class="navbar">
+                   <ul> 
+                        <li><a href="Contact.html">About Us</a></li>
+                        <li><a href="Contact.html">Privacy Policy</a></li>
+                        <li><a href="Contact.html">Terms</a></li>
+                        <li><a href="Contact.html">Copyright</a></li>
+                        <li><a href="Contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        
+    </body>
+</html>
